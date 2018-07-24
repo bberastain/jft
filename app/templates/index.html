@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block app_content %}
+  <h1>Hello {{ current_user.username }}</h1>
+  <table>
+    <tr>
+      <th>Player</th>
+      <th>Score</th>
+    </tr>
+  </table>
+
+  <button id='clicker'>Add Player</button>
+
+{% endblock %}
